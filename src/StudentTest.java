@@ -33,10 +33,10 @@ public class StudentTest {
         List<StudentsEntity> studentTestList=query.list();
         /*遍历输出集中中的元素*/
         for (StudentsEntity st:studentTestList){
-            System.out.println(st.getSid()+" ,"+st.getAddress()+" ,"+st.getBirthday()+" ,"+st.getGender()+" ,"+st.getSname()+" ,"+st.getClass());
-        }
-
+        System.out.println(st.getSid()+" ,"+st.getAddress()+" ,"+st.getBirthday()+" ,"+st.getGender()+" ,"+st.getSname()+" ,"+st.getClass());
     }
+
+}
 
     public static void main(String[] args) {
         new StudentTest().test();
